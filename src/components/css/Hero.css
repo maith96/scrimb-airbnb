@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 .hero-photo{
-    max-width:400px;
+    width:400px;
     align-self: center;
 }
 .hero-header{
