@@ -5,7 +5,7 @@ import star from '../images/star.png'
 
 function Card(){
     return(
-        <div>
+        <div className='card'>
             <img src={katie_zaferes} className='card-image' />
             <div className='card-stats'>
                 <img src={star} className='card-star'/>
