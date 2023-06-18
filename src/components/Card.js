@@ -3,18 +3,19 @@ import './css/Card.css'
 import katie_zaferes from '../images/katie-zaferes.png'
 import star from '../images/star.png'
 
-function Card(){
+function Card(props){
+    console.log(props.item.coverImg);
     return(
         <div className='card'>
-            <img src={katie_zaferes} className='card-image' />
+            <img src={`../images/${props.item.coverImg}`} className='card-image' />
             <div className='card-stats'>
                 <img src={star} className='card-star'/>
-                <span>5.0</span>
-                <span className="gray">(6) • </span>
-                <span className="gray">USA</span>
+                <span>{props.item.stats.rating}</span>
+                <span className="gray">({props.item.stats.reviewCount}) • </span>
+                <span className="gray">{props.item.location}</span>
             </div>
-            <p>Life Lessons with Katie Zaferes</p>
-            <p><span className="bold">From $136</span> / person</p>
+            <p className='card-title'>{props.item.title}</p>
+            <p className='card-price'><span className="bold">From ${props.item.price}</span> / person</p>
         </div>
     )
 }
