@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/scrimb-airbnb/static/css/main.0621a6f3.css",
+    "main.js": "/scrimb-airbnb/static/js/main.28ec8aa7.js",
+    "static/js/496.dd97ff09.chunk.js": "/scrimb-airbnb/static/js/496.dd97ff09.chunk.js",
+    "static/media/photo-grid.png": "/scrimb-airbnb/static/media/photo-grid.294d59b66b94e0e456cf.png",
+    "static/media/katie-zaferes.png": "/scrimb-airbnb/static/media/katie-zaferes.8c39a93af3d2de2b3c27.png",
+    "static/media/airbnb-logo.png": "/scrimb-airbnb/static/media/airbnb-logo.e4424517383d14a03a24.png",
+    "index.html": "/scrimb-airbnb/index.html",
+    "main.0621a6f3.css.map": "/scrimb-airbnb/static/css/main.0621a6f3.css.map",
+    "main.28ec8aa7.js.map": "/scrimb-airbnb/static/js/main.28ec8aa7.js.map",
+    "496.dd97ff09.chunk.js.map": "/scrimb-airbnb/static/js/496.dd97ff09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0621a6f3.css",
+    "static/js/main.28ec8aa7.js"
+  ]
+}
